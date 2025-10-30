@@ -32,5 +32,3 @@ with open(arquivo, mode="w", newline="", encoding="utf-8") as file:
             f"{personagem['type']}",
             f"{personagem['gender']}"
         ])
-
-print(f"Arquivo '{arquivo}' criado com sucesso! Total: {len(personagens)} personagens.")
